@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Laser Logic — a laser-mirror puzzle game</title>
+<meta name="description" content="Rotate mirrors to steer laser beams into receivers. Play free in your browser or download Laser Logic for macOS, Windows and Linux." />
+<link rel="icon" href="./icon.png" />
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;color:#f5f3ff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:radial-gradient(circle at 50% 0%,#1e5f9e,#0c2a4a 45%,#030a16)}
+  main{max-width:560px;padding:24px}
+  img{width:128px;height:128px;border-radius:28px;box-shadow:0 12px 40px #0008}
+  h1{font-size:52px;margin:16px 0 8px;background:linear-gradient(90deg,#7dd3fc,#ffffff,#4dff7a,#ff8a8a);-webkit-background-clip:text;background-clip:text;color:transparent}
+  p{opacity:.85;line-height:1.5}
+  .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:18px 0}
+  a.btn{color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
+  a.btn:hover{background:rgba(255,255,255,.18)}
+  a.primary{background:linear-gradient(135deg,#0ea5e9,#2563eb);border:none;font-size:20px;padding:14px 40px}
+  small{opacity:.6}
+</style>
+</head>
+<body>
+<main>
+  <img src="./icon.png" alt="Laser Logic icon" />
+  <h1>Laser Logic</h1>
+  <p>Flip mirrors to steer laser beams into the targets. 60 levels across 5 worlds with colour filters, splitters, prisms and movable mirrors, plus a 2-minute Rush mode.</p>
+  <div class="row"><a class="btn primary" href="./play/">Play in your browser</a></div>
+  <p>Or download the app:</p>
+  <div class="row">
+    <a class="btn" href="https://github.com/jd4rider/laser-logic/releases/latest/download/Laser-Logic-mac-arm64.dmg">macOS (Apple Silicon)</a>
+    <a class="btn" href="https://github.com/jd4rider/laser-logic/releases/latest/download/Laser-Logic-mac-x64.dmg">macOS (Intel)</a>
+    <a class="btn" href="https://github.com/jd4rider/laser-logic/releases/latest/download/Laser-Logic-win-setup.exe">Windows</a>
+    <a class="btn" href="https://github.com/jd4rider/laser-logic/releases/latest/download/Laser-Logic-linux-x86_64.AppImage">Linux (AppImage)</a>
+  </div>
+  <small>Installers are unsigned: on macOS right-click → Open the first time; on Windows choose "More info → Run anyway". · <a href="https://github.com/jd4rider/laser-logic" style="color:inherit">Source</a></small>
+</main>
+</body>
+</html>
